@@ -6,17 +6,20 @@ body {
 
 input {
     width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-color: 2px #5f9341;
+    padding: 10px;
+    border-color: 2px solid #5f9341;
     box-shadow: none;
     box-sizing: border-box;
 }
 
 button {
     color: white;
+    font-weight: bold;
     box-shadow: none;
     background: #5f9341;
     box-shadow: none;
-    border-style: none;
+    border: none;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
