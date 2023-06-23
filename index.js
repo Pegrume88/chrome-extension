@@ -1,8 +1,17 @@
 
 let myLeads = []
+
+// turn myLeads array into a string
+myLeads = JSON.parse(myLeads)
+myLeads.push("www.leads2.com")
+myLeads = JSON.stringify(myLeads)
+
 const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el")
+
+localStorage.getItem("myLeads")
+console.log(myLeads)
 
 inputBtn.addEventListener("click", function(){
     myLeads.push(inputEl.value)
